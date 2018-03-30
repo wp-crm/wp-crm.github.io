@@ -2,3 +2,21 @@ Intro:
   - docs/index.md
   - docs/installing.md
   - docs/translating.md
+  - docs/installing-wp-crm-add-ons.md
+CRM Process:
+  - docs/creating-users-and-user-data-in-wp-crm.md
+  - docs/forms-and-automatic-user-creation-in-wp-crm.md
+Get Started:
+  - docs/wp-crm-settings-the-main-tab.md
+  - docs/wp-crm-settings-the-ui-tab.md
+  - docs/wp-crm-settings-the-data-tab.md
+  - docs/wp-crm-settings-the-notifications-tab.md
+  - docs/wp-crm-settings-the-shortcode-forms-tab.md
+Integrations:
+  - docs/integrating-wp-crm-with-wp-property.md
+  - docs/integrating-wp-crm-with-wp-invoice.md
+  - docs/integrating-wp-crm-with-denali-theme.md
+  - docs/integrating-wp-crm-with-woocommerce.md
+FAQ:
+  - docs/wp-crm-use-the-same-user-database-as-regular-wordpress-user-management.md
+  - docs/how-to-add-a-new-attribute-in-wp-crm-plugin.md

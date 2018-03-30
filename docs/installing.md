@@ -1,5 +1,6 @@
 ---
 title: Installing
+sidebar_title: Installing
 permalink: /docs/installing/
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Home
+sidebar_title: Home
 permalink: /docs/
 ---
 

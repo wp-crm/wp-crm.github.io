@@ -1,5 +1,6 @@
 ---
 title: Translating
+sidebar_title: Translating
 permalink: /docs/translating/
 ---
 
