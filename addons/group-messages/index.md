@@ -5,7 +5,7 @@ slug: group-messages/index
 description: Send group messages to your users from within your WordPress control panel. 
 image: //storage.googleapis.com/media.usabilitydynamics.com/2014/10/46398e7c-wpcrm-extension-group_messages-icon-300x300.png
 repo_url: https://github.com/wp-crm/wp-crm-group-messages/
-module: "WP-Property: Group Messages"
+module: "WP-CRM: Group Messages"
 module_slug: group-messages
 ---
 
