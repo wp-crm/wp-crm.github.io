@@ -1,0 +1,44 @@
+---
+layout: default
+title: Addons
+---
+<div class="col-12">
+  <div class="content-body">
+    <div class="row">
+
+      {% for addons_list in site.data.addons %}
+
+        <div class="col-12">
+          <h1 class="page-title">{{ page.title }}</h1>
+        </div>
+        {% for addon_item in addons_list[1] %}
+          {% if addon_item.url %}
+            {% assign link = addon_item %}
+          {% else %}
+            {% for doc in site.pages %}
+              {% if doc.path == addon_item %}
+                {% assign link = doc %}
+                {% break %}
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+          <div class="col-4 product-item">
+            <div class="card h-100 product-content">
+              <div class="product-image">
+                <a href="{{ link.url }}" alt="{{ link.title }}">
+                  <img src="{{ link.image }}" alt="{{ link.title }}"/>
+                </a>
+              </div>
+              <h3 class="product-title">{{ link.title }}</h3>
+              <div class="product-description">{{ link.description }}</div>
+              <div class="product-more">
+                <a href="{{ link.url }}">Read more</a>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+
+      {% endfor %}
+    </div>
+  </div>
+</div>

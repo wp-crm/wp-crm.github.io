@@ -1,0 +1,43 @@
+<aside class="sidebar col-3">
+
+  <div class="logo-box">
+    <img src="{{ page.image }}" alt="{{ page.title }}"/>
+  </div>
+
+  {% for addons_list in site.data.apps.addons %}
+
+    {% if page.module_slug == addons_list[0] %}
+      {% for pages_list in addons_list[1] %}
+        <h2>{{ pages_list[0] }}</h2>
+        <ul>
+          {% for addon_item in pages_list[1] %}
+            {% if addon_item.url %}
+              {% assign link = addon_item %}
+            {% else %}
+              {% for doc in site.pages %}
+                {% if doc.path == addon_item %}
+                  {% assign link = doc %}
+                  {% break %}
+                {% endif %}
+              {% endfor %}
+            {% endif %}
+
+            {% if page.url == link.url %}
+              {% assign classes = "active" %}
+            {% else %}
+              {% assign classes = "" %}
+            {% endif %}
+
+            <li><a  class="{{classes}}" href="{{ link.url }}">{{ link.sidebar_title }}</a></li>
+          {% endfor %}
+        </ul>
+      {% endfor %}
+    {% endif %}
+
+  {% endfor %}
+
+  <div class="product-data">
+    <a href="{{ page.repo_url }}" class="get-repo-button">Go to <span>{{ page.module }}</span> repository</a>
+  </div>
+
+</aside>
