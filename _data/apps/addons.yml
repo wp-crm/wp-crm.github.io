@@ -3,7 +3,3 @@ group-messages:
     - addons/group-messages/index.md
     - addons/group-messages/installation.md
     - addons/group-messages/translating.md
-contact-messages:
-  Intro:
-    - addons/contact-messages/index.md
-    - addons/contact-messages/translating.md
