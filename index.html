@@ -18,49 +18,146 @@ page_class_name: front-page
   </div>
 </section>
 
-<section class="themes-section">
+<section class="features-section products-section">
   <div class="container">
     <div class="row">
-
       <div class="col-10 offset-1 products-section">
-
-        {% for addons_list in site.data.addons %}
-
         <div class="row">
           <div class="col-12">
-            <h2 class="products-section-title">{{ addons_list[0] }}</h2>
+            <h2 class="products-section-title">Features</h2>
             <h3 class="products-section-description"></h3>
           </div>
         </div>
+
         <div class="row justify-content-center">
-          {% for addon_item in addons_list[1] limit:6 %}
-          {% if theme_item.url %}
-          {% assign link = addon_item %}
-          {% else %}
-          {% for doc in site.pages %}
-          {% if doc.path == addon_item %}
-          {% assign link = doc %}
-          {% break %}
-          {% endif %}
-          {% endfor %}
-          {% endif %}
-          <div class="col-4 product-item">
+
+          <div class="col-4 featured-item">
             <div class="card h-100 product-content">
-              <div class="product-image">
-                <a href="{{ link.url }}" alt="{{ link.title }}">
-                  <img src="{{ link.image }}" alt="{{ link.title }}"/>
-                </a>
-              </div>
-              <h3 class="product-title">{{ link.title }}</h3>
-              <div class="product-description">{{ link.description }}</div>
-              <div class="product-more">
-                <a href="{{ link.url }}">Read more</a>
+              <h3 class="product-title">Native integration with WordPress users</h3>
+              <div class="product-description">
+                You will see all your users in WP-CRM Peoples tab
               </div>
             </div>
           </div>
-          {% endfor %}
+          <div class="col-4 featured-item">
+            <div class="card h-100 product-content">
+              <h3 class="product-title">Expand your user's data</h3>
+              <div class="product-description">
+                Use custom data to organize and filter your business network the way your business requires you to.
+              </div>
+            </div>
+          </div>
+          <div class="col-4 featured-item">
+            <div class="card h-100 product-content">
+              <h3 class="product-title">Lead-Generating Forms</h3>
+              <div class="product-description">
+                Create your own forms with custom data fields of your choice.
+              </div>
+            </div>
+          </div>
+          <div class="col-4 featured-item">
+            <div class="card h-100 product-content">
+              <h3 class="product-title">Contact analysis</h3>
+              <div class="product-description">
+                Apart forms sending messages, these forms will collect all kinds of custom data which can be filtered
+                for easy contact analysis.
+              </div>
+            </div>
+          </div>
+          <div class="col-4 featured-item">
+            <div class="card h-100 product-content">
+              <h3 class="product-title">Grant access to particular roles</h3>
+              <div class="product-description">
+                There is an option to set up which roles are allowed to manage WP-CRM plugin
+              </div>
+            </div>
+          </div>
+          <div class="col-4 featured-item">
+            <div class="card h-100 product-content">
+              <h3 class="product-title">Group notifications</h3>
+              <div class="product-description">
+                Send group messages to the particular group of your users. You can filter by any attribute to group
+                users.
+              </div>
+            </div>
+          </div>
+          <div class="col-4 featured-item">
+            <div class="card h-100 product-content">
+              <h3 class="product-title">User activity and note tracking</h3>
+              <div class="product-description">
+                You will see all messages sent by wp-crm forms and admin notes in users profiles.
+              </div>
+            </div>
+          </div>
+          <div class="col-4 featured-item">
+            <div class="card h-100 product-content">
+              <h3 class="product-title">Other plugins integration</h3>
+              <div class="product-description">
+                <a href="https://wp-property.gihub.io">WP-Property</a> and <a href="https://wp-invoice.gihub.io">WP-Invoice</a>
+                plugins integration
+              </div>
+            </div>
+          </div>
+
         </div>
-        {% endfor %}
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="improves-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-10 offset-1 products-section">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="products-section-title">How WP-CRM works</h2>
+            <h3 class="products-section-description"></h3>
+          </div>
+        </div>
+
+        <div class="row align-items-center flex-md-row improves-row">
+          <div class="col-6">
+            <img src="assets/images/srm-content-1.png" alt="After you installed the WP-CRM plugin, you will see all your users in All people tab"/>
+          </div>
+          <div class="col-6">
+            <div>
+              <p>After you installed the WP-CRM plugin, you will see all your users in All people tab</p>
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-center flex-md-row improves-row">
+          <div class="col-6">
+            <div>
+              <p>After you installed the WP-CRM plugin, you will see all your users in All people tab</p>
+            </div>
+          </div>
+          <div class="col-6">
+            <img src="assets/images/srm-content-1.png" alt="After you installed the WP-CRM plugin, you will see all your users in All people tab"/>
+          </div>
+        </div>
+        <div class="row align-items-center flex-md-row improves-row">
+          <div class="col-6">
+            <img src="assets/images/srm-content-1.png" alt="After you installed the WP-CRM plugin, you will see all your users in All people tab"/>
+          </div>
+          <div class="col-6">
+            <div>
+              <p>After you installed the WP-CRM plugin, you will see all your users in All people tab</p>
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-center flex-md-row improves-row">
+          <div class="col-6">
+            <div>
+              <p>After you installed the WP-CRM plugin, you will see all your users in All people tab</p>
+            </div>
+          </div>
+          <div class="col-6">
+            <img src="assets/images/srm-content-1.png" alt="After you installed the WP-CRM plugin, you will see all your users in All people tab"/>
+          </div>
+        </div>
 
       </div>
     </div>
