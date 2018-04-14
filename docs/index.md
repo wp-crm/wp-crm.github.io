@@ -35,9 +35,9 @@ A unique customer relations management system seamlessly integrated into your Wo
 *   Dynamic charts representing attributes with quantifiable data.
 *   Contact Forms for front-end.
 *   Notifications management.
-*   Group Messages [Add-on.](https://github.com/wp-crm/wp-crm-group-messages/wiki)
+*   Group Messages [Add-on.](https://wp-crm.github.io/addons/group-messages/)
 *   User CSV Exporting.
 *   User activity and note tracking.
-*   [WP-Invoice](https://github.com/wp-invoice/wp-invoice/wiki) plugin integration.
-*   [WP-Property](https://github.com/wp-property/wp-property/wiki) plugin integration.
-*   [Denali](https://github.com/wp-property/wp-denali/wiki) theme integration.
+*   [WP-Invoice](https://wp-invoice.github.io/docs/) plugin integration.
+*   [WP-Property](https://wp-property.github.io/docs/) plugin integration.
+*   [Denali](https://wp-property.github.io/themes/denali/) theme integration.

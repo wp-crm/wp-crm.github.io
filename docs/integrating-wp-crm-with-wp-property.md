@@ -4,7 +4,7 @@ sidebar_title: WP-Property Integration
 permalink: /docs/integrating-wp-crm-with-wp-property/
 ---
 
-### [WP-Property plugin](https://github.com/wp-property/wp-property/wiki) Integration:
+### [WP-Property plugin](https://wp-property.github.io/docs/) Integration:
 
 You can use the following tags in your notification templates for the forms which places on single Property pages:
 
