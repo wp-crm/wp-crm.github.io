@@ -4,7 +4,7 @@ sidebar_title: WP-Invoice Integration
 permalink: /docs/integrating-wp-crm-with-wp-property/
 ---
 
-## [WP-Invoice plugin](https://www.usabilitydynamics.com/product/wp-invoice) integration:
+## [WP-Invoice plugin](https://wp-invoice.github.io/docs/) integration:
 
 ### WP-Invoice custom field
 
