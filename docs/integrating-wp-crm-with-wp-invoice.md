@@ -1,7 +1,7 @@
 ---
 title: WP CRM with WP Invoice Integration
 sidebar_title: WP-Invoice Integration
-permalink: /docs/integrating-wp-crm-with-wp-property/
+permalink: /docs/integrating-wp-crm-with-wp-invoice/
 ---
 
 ## [WP-Invoice plugin](https://wp-invoice.github.io/docs/) integration:
