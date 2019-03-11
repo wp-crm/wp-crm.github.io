@@ -12,7 +12,6 @@ Get Started:
   - docs/wp-crm-settings-the-data-tab.md
   - docs/wp-crm-settings-the-notifications-tab.md
   - docs/wp-crm-settings-the-shortcode-forms-tab.md
-  - docs/shortcode-form_tab-is-missing.md
 Integrations:
   - docs/integrating-wp-crm-with-wp-property.md
   - docs/integrating-wp-crm-with-wp-invoice.md
@@ -21,3 +20,4 @@ Integrations:
 FAQ:
   - docs/wp-crm-use-the-same-user-database-as-regular-wordpress-user-management.md
   - docs/how-to-add-a-new-attribute-in-wp-crm-plugin.md
+  - docs/shortcode-form_tab-is-missing.md
