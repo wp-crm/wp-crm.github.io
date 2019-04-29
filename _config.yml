@@ -2,6 +2,7 @@ title: WP CRM
 description: Using WP-CRM you can create different frontend contact forms, expand the user’s profile and monitoring their activity.
 logo_image: https://storage.googleapis.com/media.usabilitydynamics.com/2014/11/0a6151b2-wpcrm-plugin-icon-300x300.png
 wp_link: https://github.com/wp-crm/wp-crm
+google_tag: GTM-KRBMGDW
 
 exclude:
   - node_modules
